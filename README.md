@@ -10,6 +10,8 @@ sg.ipynb: the core of our project: using GNN to build a recommendation system
 
 community_keyword_extractor.ipynb: extract keywords from subreddit descriptions
 
+(In preprocess.ipynb we also used a CSV called [reddit_data.csv](https://www.kaggle.com/datasets/colemaclean/subreddit-interactions). This dataset is rather large (~500MB) so we didn't include the binary in this repo. This CSV is only used in preprocess, not in training! We just have to use our own generated CSVs for training.)
+
 ## Our overall structure:
 
 * using PRAW to craw some more features for redditors and subreddits
