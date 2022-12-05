@@ -15,5 +15,4 @@ community_keyword_extractor.ipynb: extract keywords from subreddit descriptions
 * using PRAW to craw some more features for redditors and subreddits
 * using KeyBERT to extract keywords as a feature for subreddits
 * training a MBTI classifier based on redditor's past posts to add a feature for redditors
-* using GNN for recommendation system (StellarGraph + Heterogeneous GraphSAGE (HinSAGE)
-+ Link Prediction)
+* using GNN for recommendation system (StellarGraph + Heterogeneous GraphSAGE (HinSAGE) + Link Prediction)
