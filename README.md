@@ -1,11 +1,18 @@
 # Reddit-Recommendation-System
 
-Explain:
+## Explain of the files:
 
-fuck.ipynb: preprocess data to generate csv
+preprocess.ipynb: preprocess data to generate csv
 
 nodes_subreddit_1000.csv + nodes_user_1000.csv + edges_1000.csv : preprocessed training data
 
-sg.ipynb: core GNN recommendation system
+sg.ipynb: the core of our project: using GNN to build a recommendation system
 
 community_keyword_extractor.ipynb: extract keywords from subreddit descriptions
+
+## Our overall structure:
+
+* using PRAW to craw some more features for redditors and subreddits
+* using KeyBERT to extract keywords as a feature for subreddits
+* training a MBTI classifier based on redditor's past posts to add a feature for redditors
+* using GNN for recommendation system (StellarGraph + Link Prediction)
