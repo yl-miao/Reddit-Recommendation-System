@@ -6,9 +6,9 @@ crawler_and_preprocess.ipynb: preprocess data to generate 3 CSVs for training
 
 sg.ipynb: the core of our project: using GNN to build a recommendation system
 
-keyword_extractor/community_keyword_extractor.ipynb: extract keywords from subreddit descriptions
+community_keyword_extractor.ipynb: extract keywords from subreddit descriptions
 
-mbti/mbti_classification.ipynb: using DistilBERT to build an MBTI classifier
+mbti_classification.ipynb: using DistilBERT to build an MBTI classifier
 
 (In preprocess.ipynb we also used a CSV called [reddit_data.csv](https://www.kaggle.com/datasets/colemaclean/subreddit-interactions). This dataset is rather large (~500MB) so we didn't include the binary in this repo. This CSV is only used in preprocess, not in training! We just have to use our own generated CSVs for training.)
 
