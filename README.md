@@ -2,7 +2,7 @@
 
 ## Explanation of the files:
 
-preprocess.ipynb: preprocess data to generate 3 CSVs for training
+crawler_and_preprocess.ipynb: preprocess data to generate 3 CSVs for training
 
 nodes_subreddit_1000.csv + nodes_user_1000.csv + edges_1000.csv : preprocessed training data
 
