@@ -1,5 +1,8 @@
 # Reddit-Recommendation-System
 
+![DL Poster](https://user-images.githubusercontent.com/54579689/222927680-78a9fec3-f960-42d7-832c-ddf716cc12c2.jpg)
+
+
 ## Explanation of the files:
 
 crawler_and_preprocess.ipynb: preprocess data to generate 3 CSVs for training
